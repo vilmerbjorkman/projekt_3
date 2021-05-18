@@ -1,0 +1,71 @@
+body{
+    background-color:#222222;
+    font-family: 'Roboto';
+    color: red;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color:#222222;
+    background: red;
+
+    
+}
+nav ul li a{
+    color: #222222;
+}
+nav{
+    background: red;
+    height: 60px;
+    width: 100%;
+    
+}
+.uppe{
+    color: #222222;
+    background: red;
+    text-transform: uppercase;
+}
+
+
+label.logo1{
+    color:#222222;
+    font-size: 50px;
+    font-family: 'Roboto';
+    margin-left: 30px;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: red;
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+}
+a{
+    color: red;
+}
+p{
+    font-size: 25;
+    text-align: center;
+    margin: 50px;
+}

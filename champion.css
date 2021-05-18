@@ -1,0 +1,47 @@
+body{
+    background-color:#222222;
+    font-family: 'Roboto';
+    color:#7C0A02;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color:#222222;
+    background:#7C0A02;
+
+    
+}
+nav ul li a{
+    color: #222222;
+}
+nav{
+    background:#7C0A02;
+    height: 60px;
+    width: 100%;
+    
+}
+.uppe{
+    color: #222222;
+    background: #7C0A02;
+    text-transform: uppercase;
+}
+
+
+label.logo1{
+    color:#222222;
+    font-size: 50px;
+    font-family: 'Roboto';
+    margin-left: 30px;
+}
+.win{
+    list-style-type: none;
+    margin-top: 10px;
+}
