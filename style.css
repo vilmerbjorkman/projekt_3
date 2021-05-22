@@ -7,6 +7,7 @@ nav ul{
     float: right;
     margin-right: 20px;
     margin-top: 20px;
+    
 }
 nav ul li{
     display: inline-block;
@@ -17,14 +18,18 @@ nav ul li{
 
     
 }
+
 nav ul li a{
     color: #333333;
+
+  
 }
 nav{
     background:#F5F5F5;
     height: 60px;
     width: 100%;
-    
+    position: fixed;
+    margin-top: -70px;
     
 }
 .uppe{
@@ -43,6 +48,7 @@ h1{
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+    margin-top: 70px;
 }
 h2{
     text-align: center;
@@ -57,6 +63,12 @@ img{
 }
 a{
     color:#444444;
+}
+li :hover{
+    color: #222222;
+}
+h2 :hover{
+    color: #222222;
 }
 p{
     text-align: center;
