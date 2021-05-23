@@ -1,7 +1,6 @@
 body{
     background-color:#FFFDFA;
-    font-family:'Monsterrat' 'Roboto';
-
+    font-family:'Monsterrat', sans-serif;
 }
 nav ul{
     float: right;
@@ -58,6 +57,7 @@ img{
     width: 50%;
     margin-left: 25%;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 a{
     color:#444444;
