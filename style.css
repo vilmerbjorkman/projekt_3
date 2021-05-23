@@ -63,11 +63,15 @@ a{
     color:#444444;
 }
 li :hover{
-    color: #222222;
+    color: #111111;
 }
 h2 :hover{
-    color: #222222;
+    color: #111111;
 }
+label :hover{
+    color: #111111;
+}
+
 p{
     text-align: center;
     margin-left: 15%;
@@ -87,4 +91,16 @@ li.win{
 padding: 5px;
 border-bottom: ridge;
 border-color: #333333;
+}
+form{
+    text-align: center;
+    margin-bottom: 50px;
+}
+input{
+    padding: 20px 20px;
+    border-style: none;
+    background: #f5f5f5;
+    color:#222222;
+    border-radius: 30px;
+    font-size: 25px;
 }
