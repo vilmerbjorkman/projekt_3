@@ -14,8 +14,7 @@ nav ul li{
     font-size: 20px;
     color: #333333;
     box-shadow: #222222;
-
-    
+    position: sticky;
 }
 nav ul li a{
     color: #333333;
@@ -27,6 +26,8 @@ nav{
     height: 60px;
     width: 100%;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .uppe{
     color: #333333;
