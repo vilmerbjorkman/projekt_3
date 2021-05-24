@@ -5,12 +5,12 @@ body{
 nav ul{
     float: right;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 nav ul li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
     font-size: 20px;
     color: #333333;
     box-shadow: #222222;
@@ -21,7 +21,7 @@ nav ul li a{
 }
 nav{
     background:#F5F5F5;
-    height: 60px;
+    height: 50px;
     width: 100%;
     align-items: center;
     position: sticky;
@@ -31,12 +31,17 @@ nav{
     color: #333333;
     text-transform: uppercase;
     border-style: none;
+    margin-top: 100px;
 }
 .logo1{
     color:#D40000;
-    font-size: 47px;
+    font-size: 40px;
     margin-left: 15px;
-    margin-top: 7px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+nav label{
+    margin-top: 100px;
 }
 h1{
     font-weight: 500;
@@ -96,9 +101,9 @@ iframe{
     text-align: center;
 }
 li.win{
-padding: 5px;
-border-bottom: ridge;
-border-color: #333333;
+    padding: 5px;
+    border-bottom: ridge;
+    border-color: #333333;
 }
 form{
     text-align: center;
