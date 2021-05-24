@@ -104,21 +104,25 @@ input{
     border-radius: 30px;
     font-size: 25px;
 }
-.dropdown {
+.vanlig {
     position: relative;
     display: inline-block;
   }
   
-  .dropdown-content {
+  .nere {
     display: none;
     position: absolute;
     background-color: #f5f5f5;
     min-width: 160px;
     padding: 12px 16px;
     z-index: 1;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333333;
   }
   
-  .dropdown:hover .dropdown-content {
+  .vanlig:hover .nere {
     display: block;
   }
   span{
