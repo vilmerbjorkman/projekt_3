@@ -17,7 +17,6 @@ nav ul li{
 
     
 }
-
 nav ul li a{
     color: #333333;
 
@@ -71,11 +70,10 @@ h2 :hover{
 label :hover{
     color: #111111;
 }
-
 p{
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 30px;
 }
 iframe{
@@ -107,26 +105,28 @@ input{
 .vanlig {
     position: relative;
     display: inline-block;
-  }
-  
-  .nere {
+}
+
+.nere {
     display: none;
     position: absolute;
     background-color: #f5f5f5;
-    min-width: 160px;
+    min-width: 100px;
     padding: 12px 16px;
     z-index: 1;
     border-radius: 10px;
     font-size: 20px;
     text-transform: uppercase;
     color: #333333;
-  }
-  
-  .vanlig:hover .nere {
+} 
+.vanlig:hover .nere {
     display: block;
-  }
-  span{
+}
+span{
       text-transform: uppercase;
       font-size: 20px;
       color: #333333;
-  }
+}
+p:hover{
+    color: #111111;
+}
